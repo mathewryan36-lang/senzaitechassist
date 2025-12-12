@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Senzai Tech Assist — AI & Crypto Intelligence</title>
+
+<!-- Inter Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+<style>
+/* GLOBAL */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0A0A0A;
+  color: #CFCFCF;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* HEADER */
+header {
+  background: #121212;
+  border-bottom: 2px solid #7A3FF2;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #CFCFCF;
+  font-size: 1.8rem;
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+nav a {
+  color: #A46CFF;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #CFCFCF;
+}
+
+/* HERO SECTION */
+.hero {
+  width: 100%;
+  padding: 140px 20px;
+  text-align: center;
+  background: radial-gradient(circle at center, rgba(122,63,242,0.25), transparent 60%),
+              linear-gradient(140deg, #121212 0%, #0A0A0A 100%);
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid #7A3FF2;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  top: -10%;
+  left: -10%;
+  background: linear-gradient(45deg, rgba(122,63,242,0.25), rgba(164,108,255,0.1), transparent);
+  filter: blur(90px);
+  z-index: 0;
+  animation: glowMove 12s infinite linear;
+}
+
+@keyframes glowMove {
+  0% { transform: translate(-10%, -10%) rotate(0deg); }
+  100% { transform: translate(10%, 10%) rotate(360deg); }
+}
+
+.hero h2 {
+  color: #CFCFCF;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 0 12px rgba(164,108,255,0.4);
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  font-size: 1.25rem;
+  position: relative;
+  z-index: 2;
+  color: #DADADA;
+  line-height: 1.7;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #8B5A2B;
+  color: #CFCFCF;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+
+.cta-btn:hover {
+  background: #CA8F52;
+}
+
+/* CONTENT SECTION */
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h3 {
+  color: #A46CFF;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+  border-top: 2px solid #7A3FF2;
+  color: #A8A8A8;
+  font-size: 0.9rem;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+  <h1>Senzai Tech Assist</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="articles.html">Articles</a>
+    <a href="newsletter.html">Newsletter</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <h2>AI & Crypto Intelligence for the Next Generation</h2>
+  <p>
+    Senzai delivers high-clarity insights, tool evaluations, and digital wealth strategies across
+    artificial intelligence, blockchain systems, and emerging automation technology.
+  </p>
+  <a class="cta-btn" href="articles.html">Explore Articles</a>
+</div>
+
+<!-- MAIN CONTENT -->
+<section>
+  <h3>What We Cover</h3>
+  <ul>
+    <li>AI tools, automation suites, and productivity systems</li>
+    <li>Crypto wallets, exchanges, and Web3 services</li>
+    <li>GPU hardware, compute platforms, and infrastructure</li>
+    <li>Digital income strategies & future tech trends</li>
+  </ul>
+
+  <h3>What's Coming Next</h3>
+  <ul>
+    <li>Expanded article library focused on tech and finance</li>
+    <li>Weekly updates on AI breakthroughs and crypto markets</li>
+    <li>The Senzai newsletter for deep strategic insights</li>
+    <li>Automation-powered content engine for long-term growth</li>
+  </ul>
+</section>
+
+<footer>
+  Senzai Tech Assist © 2026 — Powered by Mathew & Lucius Prime
+</footer>
+
+</body>
+</html>
